@@ -1,4 +1,4 @@
-# Remaining Useful Life (RUL) Prediction using Transformer and BiLSTM Models
+# Remaining Useful Life (RUL) Prediction using Transformer and LSTM Models
 
 This project explores predictive maintenance by estimating the Remaining Useful Life (RUL) of aircraft engines using deep learning models. Two architectures were evaluated on the complex **NASA CMAPSS FD004** dataset: a **Transformer** and a **Bidirectional LSTM (BiLSTM)**. The Transformer model achieved the best performance.
 
@@ -45,12 +45,12 @@ This project explores predictive maintenance by estimating the Remaining Useful 
   * `d_model = 64`, `dim_feedforward = 128`
   * Dropout: 0.1
 
-### 🔹 BiLSTM
+### 🔹 LSTM
 
 * Input Shape: `(batch_size, 30, 24)`
 * Layers:
 
-  * 2 BiLSTM layers with 64 hidden units
+  * 2 LSTM layers with 64 hidden units
 * Dropout: 0.2
 
 ---
