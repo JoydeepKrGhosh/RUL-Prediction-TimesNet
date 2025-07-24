@@ -107,11 +107,3 @@ This project explores predictive maintenance by estimating the Remaining Useful 
 
 ---
 
-
-
-
----
-
-## 📬 Contact
-
-If you have any questions or feedback, feel free to reach out at \[[your.email@example.com](mailto:your.email@example.com)] or open an issue in the repo.
